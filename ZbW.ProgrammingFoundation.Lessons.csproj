@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Module12\BinaereSuche\BinaereSucheView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module12\Fibonacci\FibonacciView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module12\Iteration\IterationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module12\MuenzWechsel\MuenzWechselView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module12\TurmVonHanoi\TurmVonHanoiView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module13\DoublyLinkedListDemo\DoublyLinkedListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module13\SinglyLinkedListDemo\SinglyLinkedListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Module13\StackDemo\StackView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

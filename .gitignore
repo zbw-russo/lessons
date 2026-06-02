@@ -1,0 +1,52 @@
+## Build output
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+arm/
+arm64/
+
+## Visual Studio / Rider / VS Code user state
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+
+## Test results and coverage
+TestResults/
+*.trx
+coverage/
+coverage.cobertura.xml
+*.coverage
+*.coveragexml
+
+## Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+
+## OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Publish output
+publish/
+*.pubxml.user
