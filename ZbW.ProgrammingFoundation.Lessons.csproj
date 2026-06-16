@@ -1,11 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <OutputType>WinExe</OutputType>
     <TargetFramework>net9.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Module15\BubbleSortWithOptimizations\**\*.cs" />
+    <Compile Remove="Module15\BubbleSortWithoutOptimizations\**\*.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Module12\BinaereSuche\BinaereSucheView.cs">
